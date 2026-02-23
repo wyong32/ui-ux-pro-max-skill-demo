@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+/* PokéPath TD 攻略站 - 设计系统 */
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+}
+.font-display {
+  font-family: 'Orbitron', system-ui, sans-serif;
+}
