@@ -8,6 +8,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+
+          <!-- 延迟加载第三方脚本 -->
+  <script>
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        // 延迟加载Google Analytics
+        // const gtagScript = document.createElement('script');
+        // gtagScript.async = true;
+        // gtagScript.defer = true;
+        // gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-9EYLYE1N5Z';
+        // document.head.appendChild(gtagScript);
+
+        // window.dataLayer = window.dataLayer || [];
+        // function gtag() { dataLayer.push(arguments); }
+        // gtag('js', new Date());
+        // gtag('config', 'G-9EYLYE1N5Z');
+
+
+        // 延迟加载广告
+        const adsScript = document.createElement('script');
+        adsScript.async = true;
+        adsScript.defer = true;
+        adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4567915480186242';
+        adsScript.crossOrigin = 'anonymous';
+        document.head.appendChild(adsScript);
+      }, 3000);
+    });
+  </script>
+
   </head>
   <body>
     <div id="app"></div>
